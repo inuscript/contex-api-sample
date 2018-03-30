@@ -1,9 +1,5 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
-import "./App.css";
-
-const { Provider, Consumer } = React.createContext();
-
 class App extends Component {
   state = {
     count: 0
